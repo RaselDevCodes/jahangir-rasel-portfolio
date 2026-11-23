@@ -60,7 +60,7 @@ function Home() {
           </p>
 
           <div className="hero-buttons">
-            <a href="http://localhost:5173/projects" className="primary-btn">
+            <a href="/projects" className="primary-btn">
               Explore My Work ↗
             </a>
 
