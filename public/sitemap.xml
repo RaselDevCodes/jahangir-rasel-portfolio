@@ -1,28 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
   <url>
-    <loc>https://YOUR-VERCEL-DOMAIN/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
+    <loc>https://jahangir-rasel-portfolio.vercel.app/</loc>
   </url>
-
   <url>
-    <loc>https://YOUR-VERCEL-DOMAIN/about</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://jahangir-rasel-portfolio.vercel.app/about</loc>
   </url>
-
   <url>
-    <loc>https://YOUR-VERCEL-DOMAIN/projects</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://jahangir-rasel-portfolio.vercel.app/projects</loc>
   </url>
-
   <url>
-    <loc>https://YOUR-VERCEL-DOMAIN/contact</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <loc>https://jahangir-rasel-portfolio.vercel.app/contact</loc>
   </url>
-
 </urlset>
