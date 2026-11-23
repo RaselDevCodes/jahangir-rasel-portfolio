@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://YOUR-VERCEL-DOMAIN/sitemap.xml
+Sitemap: https://jahangir-rasel-portfolio.vercel.app/sitemap.xml
