@@ -60,7 +60,7 @@ function Home() {
           </p>
 
           <div className="hero-buttons">
-            <a href="/projects" className="primary-btn">
+            <a href="https://jahangir-rasel-portfolio.vercel.app/projects" className="primary-btn">
               Explore My Work ↗
             </a>
 
