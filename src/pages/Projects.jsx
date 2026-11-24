@@ -16,17 +16,17 @@ function Projects() {
       description:
         "A custom WordPress integration connecting property data from the BeHomes API with website listings and filters.",
       technologies: ["WordPress", "PHP", "REST API", "JavaScript"],
-      link: "",
-      linkText: "",
+      link: "https://saidihomes.com/off-plan-properties/",
+      linkText: "Visit Website",
     },
     {
-      title: "E-Commerce Application",
+      title: "Web Application",
       category: "Full Stack Development",
       description:
         "A learning project focused on building an e-commerce application with authentication, products and orders.",
       technologies: ["Node.js", "Express.js", "MongoDB", "EJS"],
-      link: "",
-      linkText: "",
+      link: "https://real-api-projects.vercel.app/",
+      linkText: "Visit Website",
     },
   ];
 
