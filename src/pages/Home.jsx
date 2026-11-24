@@ -1,40 +1,41 @@
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 function Home() {
   const whatsappLink = "https://wa.me/8801712166614?text=Hello%20Jahangir";
   return (
     <>
       <Helmet>
-  <title>Jahangir Rasel | Junior Full Stack JavaScript Developer</title>
+        <title>Jahangir Rasel | Junior Full Stack JavaScript Developer</title>
 
-  <meta
-    name="description"
-    content="Jahangir Rasel is a Junior Full Stack JavaScript Developer working with React, Node.js, Express.js and MongoDB. Explore his projects and portfolio."
-  />
+        <meta
+          name="description"
+          content="Jahangir Rasel is a Junior Full Stack JavaScript Developer working with React, Node.js, Express.js and MongoDB. Explore his projects and portfolio."
+        />
 
-  <meta
-    name="keywords"
-    content="Jahangir Rasel, JavaScript Developer, Junior Full Stack Developer, MERN Stack Developer, React Developer, Node.js Developer"
-  />
+        <meta
+          name="keywords"
+          content="Jahangir Rasel, JavaScript Developer, Junior Full Stack Developer, MERN Stack Developer, React Developer, Node.js Developer"
+        />
 
-  <meta name="author" content="Jahangir Rasel" />
+        <meta name="author" content="Jahangir Rasel" />
 
-  {/* Open Graph */}
-  <meta
-    property="og:title"
-    content="Jahangir Rasel | Junior Full Stack JavaScript Developer"
-  />
+        {/* Open Graph */}
+        <meta
+          property="og:title"
+          content="Jahangir Rasel | Junior Full Stack JavaScript Developer"
+        />
 
-  <meta
-    property="og:description"
-    content="Explore the portfolio and web development projects of Jahangir Rasel."
-  />
+        <meta
+          property="og:description"
+          content="Explore the portfolio and web development projects of Jahangir Rasel."
+        />
 
-  <meta property="og:type" content="website" />
+        <meta property="og:type" content="website" />
 
-  <meta property="og:site_name" content="Jahangir Rasel Portfolio" />
+        <meta property="og:site_name" content="Jahangir Rasel Portfolio" />
 
-  <meta property="og:locale" content="en_US" />
-</Helmet>
+        <meta property="og:locale" content="en_US" />
+      </Helmet>
 
       <main className="hero" id="home">
         <div className="hero-content">
@@ -60,9 +61,9 @@ function Home() {
           </p>
 
           <div className="hero-buttons">
-            <a href="https://jahangir-rasel-portfolio.vercel.app/projects " className="primary-btn">
+            <Link to="/projects" className="primary-btn">
               Explore My Work ↗
-            </a>
+            </Link>
 
             <a
               href={whatsappLink}
